@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+SPDX-FileCopyrightText: 2026 The Cutefish Backup Authors
+SPDX-License-Identifier: BSD-3-Clause
+
+The Portable Backup: the container cutefish-backup writes every backup into.
+Magic "CPB\x01" at the first byte, a codec-compressed POSIX PAX tar after
+sixteen bytes of header, and the file's own index and details in a trailer
+at its end. The codec is written in the header, so one ending covers every
+compression the tool offers.
+-->
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
+  <mime-type type="application/x-cutefish-backup">
+    <comment>Cutefish backup archive</comment>
+    <acronym>CPB</acronym>
+    <expanded-acronym>Cutefish Portable Backup</expanded-acronym>
+    <generic-icon name="preferences-system-backup"/>
+    <magic priority="60">
+      <match type="string" value="CPB\x01" offset="0"/>
+    </magic>
+    <glob pattern="*.pb"/>
+  </mime-type>
+</mime-info>

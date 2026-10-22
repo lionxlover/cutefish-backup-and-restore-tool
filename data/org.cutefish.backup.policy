@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC
+ "-//freedesktop//DTD PolicyKit Policy configuration 1.0//EN"
+ "http://www.freedesktop.org/standards/PolicyKit/1/policyconfig.dtd">
+
+<!--
+  The backup tool's whole-disk runs. The window starts cutefish-backupctl
+  through pkexec for them; this action says what the user is asked, and the
+  CLI runs as root for the one archive it was asked for.
+-->
+
+<policyconfig>
+
+  <vendor>The Cutefish Backup Authors</vendor>
+  <vendor_url>https://github.com/cutefishos</vendor_url>
+
+  <action id="org.cutefish.backup.system">
+    <description>Back up the whole system</description>
+    <description xml:lang="zh_CN">备份整个系统</description>
+    <message>Authentication is required to read every file below the root for a whole-system backup</message>
+    <message xml:lang="zh_CN">读取根目录下所有文件以进行整机备份需要授权</message>
+    <defaults>
+      <allow_any>auth_admin_keep</allow_any>
+      <allow_inactive>auth_admin_keep</allow_inactive>
+      <allow_active>auth_admin_keep</allow_active>
+    </defaults>
+    <annotate key="org.freedesktop.policykit.exec.path">/usr/bin/cutefish-backupctl</annotate>
+    <annotate key="org.freedesktop.policykit.exec.allow-unknown-agent">true</annotate>
+  </action>
+
+</policyconfig>

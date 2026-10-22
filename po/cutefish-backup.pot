@@ -1,0 +1,533 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cutefish-backup\n"
+"Report-Msgid-Bugs-To: https://github.com/cutefishos\n"
+"POT-Creation-Date: 2026-10-22 04:00+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: src/app/restorewizard.cpp
+msgid " · {count} files"
+msgstr ""
+
+#: src/app/backupwindow.cpp
+msgid "A backup is still running. Stop it from its own page."
+msgstr ""
+
+#: src/app/backupwizard.cpp
+msgid "A Backups folder in Home"
+msgstr ""
+
+#: src/app/backupwizard.cpp
+msgid "A folder anywhere, or a place the list does not show"
+msgstr ""
+
+#: src/app/backupwizard.cpp
+msgid "A pattern keeps files out of every backup:\n\n  *.o            every file whose name ends in .o\n  Documents/     a folder by that name, anywhere below a source, and everything in it\n  /home/user/X   a folder by its path below a source\n"
+msgstr ""
+
+#: src/app/backupwizard.cpp
+msgid "A pattern, such as *.iso or Videos/"
+msgstr ""
+
+#: src/app/schedulepage.cpp
+msgid "A systemd timer of the user's own, with no password asked. It runs the same backup the page sets up."
+msgstr ""
+
+#: src/app/restorewizard.cpp
+msgid "A whole-system archive restores whole, to its own places."
+msgstr ""
+
+#: src/app/backupwizard.cpp
+msgid "Add"
+msgstr ""
+
+#: src/app/restorewizard.cpp
+msgid "An archive anywhere on the machine"
+msgstr ""
+
+#: src/app/schedulepage.cpp
+msgid "Automatic backups"
+msgstr ""
+
+#: src/app/backupwindow.cpp
+msgid "Back"
+msgstr ""
+
+#: src/app/backupwindow.cpp
+msgid "Back up"
+msgstr ""
+
+#: src/app/backupwizard.cpp
+msgid "Back up again"
+msgstr ""
+
+#: src/app/schedulepage.cpp
+msgid "Back up automatically"
+msgstr ""
+
+#: src/app/schedulepage.cpp
+msgid "Back up now"
+msgstr ""
+
+#: src/app/restorewizard.cpp
+msgid "Back where it came from, or into a folder of the user's own."
+msgstr ""
+
+#: src/app/backupwindow.cpp
+msgid "Backing the files up…"
+msgstr ""
+
+#: src/app/backupwizard.cpp
+msgid "Backing up"
+msgstr ""
+
+#: src/app/backupwindow.cpp
+msgid "Backup"
+msgstr ""
+
+#: src/app/restorewizard.cpp
+msgid "Backup archives"
+msgstr ""
+
+#: src/app/restorewizard.cpp
+msgid "Choose a backup archive"
+msgstr ""
+
+#: src/app/restorewizard.cpp
+msgid "Choose a file…"
+msgstr ""
+
+#: src/app/backupwizard.cpp
+msgid "Choose a folder to back up"
+msgstr ""
+
+#: src/app/backupwizard.cpp
+msgid "Choose a folder…"
+msgstr ""
+
+#: src/app/backupwizard.cpp
+msgid "Choose where the archives go"
+msgstr ""
+
+#: src/app/restorewizard.cpp
+msgid "Choose where the files come back"
+msgstr ""
+
+#: src/app/backupwizard.cpp
+msgid "Compression"
+msgstr ""
+
+#: src/app/backupwindow.cpp
+msgid "Confirm"
+msgstr ""
+
+#: src/app/backupwindow.cpp
+msgid "Continue"
+msgstr ""
+
+#: src/app/backupwindow.cpp
+msgid "Counting the files…"
+msgstr ""
+
+#: src/app/schedulepage.cpp
+msgid "Daily"
+msgstr ""
+
+#: src/app/backupwizard.cpp
+msgid "Destination"
+msgstr ""
+
+#: src/app/schedulepage.cpp
+msgid "Every one"
+msgstr ""
+
+#: src/app/restorewizard.cpp
+msgid "Everything"
+msgstr ""
+
+#: src/app/backupwizard.cpp
+msgid "Everything (the whole system)"
+msgstr ""
+
+#: src/app/backupwizard.cpp
+msgid "Everything was copied."
+msgstr ""
+
+#: src/app/backupwizard.cpp
+msgid "Exclude patterns"
+msgstr ""
+
+#: src/app/backupwizard.cpp
+msgid "Excludes"
+msgstr ""
+
+#: src/app/restorewizard.cpp
+msgid "Files with the same names are replaced by the archive's."
+msgstr ""
+
+#: src/app/restorewizard.cpp
+msgid "Files with the same names are replaced. Everything else stays as it is."
+msgstr ""
+
+#: src/app/backupwizard.cpp
+msgid "Finished"
+msgstr ""
+
+#: src/app/backupwizard.cpp
+msgid "Folders I choose"
+msgstr ""
+
+#: src/app/restorewizard.cpp
+msgid "From {archive}"
+msgstr ""
+
+#: src/app/backupwizard.cpp
+msgid "gzip — compatible"
+msgstr ""
+
+#: src/app/schedulepage.cpp
+msgid "How often"
+msgstr ""
+
+#: src/app/backupwizard.cpp
+msgid "Inside {path}"
+msgstr ""
+
+#: src/app/restorewizard.cpp
+msgid "Into a folder…"
+msgstr ""
+
+#: src/app/schedulepage.cpp
+msgid "Keep"
+msgstr ""
+
+#: src/app/backupwizard.cpp
+msgid "Leave out"
+msgstr ""
+
+#: src/app/schedulepage.cpp
+msgid "Monthly (the first)"
+msgstr ""
+
+#: src/app/backupwizard.cpp
+msgid "My home folder"
+msgstr ""
+
+#: src/app/restorewizard.cpp
+msgid "No archives below {path} yet. Make one from the Back up page."
+msgstr ""
+
+#: src/app/schedulepage.cpp
+msgid "No backup has been made yet."
+msgstr ""
+
+#: src/app/schedulepage.cpp
+msgid "Off"
+msgstr ""
+
+#: src/app/backupwindow.cpp
+msgid "OK"
+msgstr ""
+
+#: src/app/schedulepage.cpp
+msgid "Older archives are removed after each successful backup."
+msgstr ""
+
+#: src/app/schedulepage.cpp
+msgid "On: {frequency}"
+msgstr ""
+
+#: src/app/restorewizard.cpp
+msgid "Over the tree as it was, /home and all"
+msgstr ""
+
+#: src/app/backupwizard.cpp
+msgid "Pick folders one by one"
+msgstr ""
+
+#: src/app/backupwizard.cpp
+msgid "Preset"
+msgstr ""
+
+#: src/app/restorewizard.cpp
+msgid "Reading the archive…"
+msgstr ""
+
+#: src/app/backupwizard.cpp
+msgid "Remove"
+msgstr ""
+
+#: src/app/backupwindow.cpp
+msgid "Restore"
+msgstr ""
+
+#: src/app/restorewizard.cpp
+msgid "Restore now?"
+msgstr ""
+
+#: src/app/restorewizard.cpp
+msgid "Restoring"
+msgstr ""
+
+#: src/app/backupwizard.cpp
+msgid "Review"
+msgstr ""
+
+#: src/app/backupwindow.cpp
+msgid "Schedule"
+msgstr ""
+
+#: src/app/restorewizard.cpp
+msgid "Selected files"
+msgstr ""
+
+#: src/app/backupwindow.cpp
+msgid "Something went wrong"
+msgstr ""
+
+#: src/app/backupwizard.cpp
+msgid "Start the backup"
+msgstr ""
+
+#: src/app/backupwizard.cpp
+msgid "Stop it"
+msgstr ""
+
+#: src/app/backupwizard.cpp
+msgid "Stop the backup"
+msgstr ""
+
+#: src/app/backupwizard.cpp
+msgid "Stop the backup?"
+msgstr ""
+
+#: src/app/restorewizard.cpp
+msgid "Stop the restore"
+msgstr ""
+
+#: src/app/restorewizard.cpp
+msgid "Stop the restore?"
+msgstr ""
+
+#: src/app/backupwizard.cpp
+msgid "The administrator password is asked for"
+msgstr ""
+
+#: src/app/backupwizard.cpp
+msgid "The archive lands in one piece, heavily compressed. Outside disks are found on their own."
+msgstr ""
+
+#: src/app/backupwizard.cpp
+msgid "The archive sits beside its index, which the restore page reads to browse the files. Keep copies of the archive on another disk."
+msgstr ""
+
+#: src/app/restorewizard.cpp
+msgid "The archive's whole tree below it"
+msgstr ""
+
+#: src/app/restorewizard.cpp
+msgid "The archives at the destination. One is chosen here and read below."
+msgstr ""
+
+#: src/app/backupwizard.cpp
+msgid "The backup is one .pb file — the compression above inside it, and its own file list at the end — so a single file carries everything. The progress page tells the size as it counts."
+msgstr ""
+
+#: src/app/backupwizard.cpp
+msgid "The built-in ones"
+msgstr ""
+
+#: src/app/backupwizard.cpp
+msgid "The built-in ones only: caches, the trash, *.tmp"
+msgstr ""
+
+#: src/app/backupwizard.cpp
+msgid "The folders whose loss would hurt. Caches and the trash are left out on their own."
+msgstr ""
+
+#: src/app/backupwizard.cpp
+msgid "The half-written archive is cleaned up."
+msgstr ""
+
+#: src/app/backupwizard.cpp
+msgid "The home folder"
+msgstr ""
+
+#: src/app/backupwindow.cpp
+msgid "The job failed."
+msgstr ""
+
+#: src/app/backupwindow.cpp
+msgid "The job was stopped. The unfinished archive was cleaned up."
+msgstr ""
+
+#: src/app/schedulepage.cpp
+msgid "The last backup"
+msgstr ""
+
+#: src/app/schedulepage.cpp
+msgid "The newest 10"
+msgstr ""
+
+#: src/app/schedulepage.cpp
+msgid "The newest 20"
+msgstr ""
+
+#: src/app/schedulepage.cpp
+msgid "The newest 5"
+msgstr ""
+
+#: src/app/restorewizard.cpp
+msgid "The original places"
+msgstr ""
+
+#: src/app/backupwizard.cpp
+msgid "The plan"
+msgstr ""
+
+#: src/app/backupwindow.cpp
+msgid "The restore is finished"
+msgstr ""
+
+#: src/app/schedulepage.cpp
+msgid "The timer"
+msgstr ""
+
+#: src/app/schedulepage.cpp
+msgid "The timer could not be installed"
+msgstr ""
+
+#: src/app/schedulepage.cpp
+msgid "The timer is off."
+msgstr ""
+
+#: src/app/schedulepage.cpp
+msgid "The timer is on: {frequency}."
+msgstr ""
+
+#: src/app/restorewizard.cpp
+msgid "The whole archive"
+msgstr ""
+
+#: src/app/restorewizard.cpp
+msgid "The whole tree, as it was"
+msgstr ""
+
+#: src/app/restorewizard.cpp
+msgid "This archive has no index; everything comes back whole."
+msgstr ""
+
+#: src/app/restorewizard.cpp
+msgid "This folder"
+msgstr ""
+
+#: src/app/schedulepage.cpp
+msgid "Timer"
+msgstr ""
+
+#: src/app/restorewizard.cpp
+msgid "Up"
+msgstr ""
+
+#: src/app/restorewizard.cpp
+msgid "Walk the archive's tree and tick what you want"
+msgstr ""
+
+#: src/app/schedulepage.cpp
+msgid "Weekly (Mondays)"
+msgstr ""
+
+#: src/app/backupwizard.cpp
+msgid "What"
+msgstr ""
+
+#: src/app/restorewizard.cpp
+msgid "What comes back"
+msgstr ""
+
+#: src/app/restorewizard.cpp
+msgid "What is back stays; the rest is left out."
+msgstr ""
+
+#: src/app/backupwizard.cpp
+msgid "What to back up"
+msgstr ""
+
+#: src/app/backupwizard.cpp
+msgid "Where"
+msgstr ""
+
+#: src/app/restorewizard.cpp
+msgid "Where it goes"
+msgstr ""
+
+#: src/app/schedulepage.cpp
+msgid "Where things stand"
+msgstr ""
+
+#: src/app/backupwizard.cpp
+msgid "Where to keep it"
+msgstr ""
+
+#: src/app/restorewizard.cpp
+msgid "Which backup"
+msgstr ""
+
+#: src/app/backupwizard.cpp
+msgid "xz (LZMA2) — smallest"
+msgstr ""
+
+#: src/app/backupwizard.cpp
+msgid "xz is LZMA2, the codec 7z uses: the smallest archives, the slowest to make. zstd runs rings around it and stays small; gzip reads on any machine."
+msgstr ""
+
+#: src/app/backupwizard.cpp
+msgid "zstd — fastest"
+msgstr ""
+
+#: src/app/backupwizard.cpp
+msgid "zstd — high"
+msgstr ""
+
+#: src/app/backupwizard.cpp
+msgid "{count} folders"
+msgstr ""
+
+#: src/app/backupwizard.cpp
+msgid "{count} of the user's own"
+msgstr ""
+
+#: src/app/backupwizard.cpp
+msgid "{count} of the user's own, on top of the built-in ones"
+msgstr ""
+
+#: src/app/restorewizard.cpp
+msgid "{date} · {size}"
+msgstr ""
+
+#: src/app/backupwindow.cpp
+msgid "{files} files were put back where they came from."
+msgstr ""
+
+#: src/app/backupwindow.cpp
+msgid "{files} files · {read} read → {archive} archive"
+msgstr ""
+
+#: src/app/backupwindow.cpp
+msgid "{files} files · {read} written"
+msgstr ""
+
+#: src/app/backupwizard.cpp
+msgid "{free} free · {type}"
+msgstr ""
+
+#: src/app/schedulepage.cpp
+msgid "{name}, {date}"
+msgstr ""

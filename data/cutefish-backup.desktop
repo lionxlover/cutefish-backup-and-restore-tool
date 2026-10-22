@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Backup
+GenericName=Backup Tool
+Comment=Keep your files in heavily compressed archives, and put them back when needed
+Exec=cutefish-backup
+Icon=cutefish-backup
+Categories=System;FileTools;Archiving;
+Keywords=backup;archive;restore;cutefish;tar;compression;
+StartupNotify=true
